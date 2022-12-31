@@ -17,3 +17,4 @@ let p=createPerson("Reiley", "Reid","Rai");
 console.log(p.firstname);
 console.log(p.lastname);
 console.log(p.fullname);
+console.log("hi");
