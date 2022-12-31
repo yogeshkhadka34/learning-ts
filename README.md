@@ -1,0 +1,2 @@
+# learning-ts
+typescript codes
