@@ -1,20 +1,18 @@
-
-
-//for in
-let colors = ["red","green","blue"]
-
-for(let color in colors){
-    console.log(colors[color]); 
+//Methods in class
+class Person {
+    //constructor method
+    constructor(name: string){
+        console.log("Hi Usha "+name); 
+    } 
+    //static method
+    static staticMethod(name: string | undefined){
+        console.log("Static Method "+name);
+    } 
+    //Prototype Method
+    getGreetings(name: string){
+        console.log("Hello "+name);
+    }
 }
-//for of
-for(let index of colors){
-    console.log(index);
-    
-}
-//splitting letters of string by for of
-let letters = "ABC";
-
-for (let letter of letters){
-    console.log(letter);
-    
-}
+let per= new Person("chandler");
+Person.staticMethod("done");
+per.getGreetings("Reiley");
