@@ -1,3 +1,4 @@
+
 let firstname="Chanler";
 let lastname= "Bing";
 let fullname;
@@ -18,3 +19,4 @@ console.log(p.firstname);
 console.log(p.lastname);
 console.log(p.fullname);
 console.log("hi");
+
